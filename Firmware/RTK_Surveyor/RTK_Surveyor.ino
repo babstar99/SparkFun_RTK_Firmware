@@ -63,43 +63,43 @@
 //Hardware connections
 //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 //These pins are set in beginBoard()
-int pin_batteryLevelLED_Red = -1;
-int pin_batteryLevelLED_Green = -1;
-int pin_positionAccuracyLED_1cm = -1;
-int pin_positionAccuracyLED_10cm = -1;
-int pin_positionAccuracyLED_100cm = -1;
-int pin_baseStatusLED = -1;
-int pin_bluetoothStatusLED = -1;
-int pin_microSD_CS = -1;
-int pin_zed_tx_ready = -1;
-int pin_zed_reset = -1;
-int pin_batteryLevel_alert = -1;
+int8_t pin_batteryLevelLED_Red = -1;
+int8_t pin_batteryLevelLED_Green = -1;
+int8_t pin_positionAccuracyLED_1cm = -1;
+int8_t pin_positionAccuracyLED_10cm = -1;
+int8_t pin_positionAccuracyLED_100cm = -1;
+int8_t pin_baseStatusLED = -1;
+int8_t pin_bluetoothStatusLED = -1;
+int8_t pin_microSD_CS = -1;
+int8_t pin_zed_tx_ready = -1;
+int8_t pin_zed_reset = -1;
+int8_t pin_batteryLevel_alert = -1;
 
-int pin_muxA = -1;
-int pin_muxB = -1;
-int pin_powerSenseAndControl = -1;
-int pin_setupButton = -1;
-int pin_powerFastOff = -1;
-int pin_dac26 = -1;
-int pin_adc39 = -1;
-int pin_peripheralPowerControl = -1;
+int8_t pin_muxA = -1;
+int8_t pin_muxB = -1;
+int8_t pin_powerSenseAndControl = -1;
+int8_t pin_setupButton = -1;
+int8_t pin_powerFastOff = -1;
+int8_t pin_dac26 = -1;
+int8_t pin_adc39 = -1;
+int8_t pin_peripheralPowerControl = -1;
 
-int pin_radio_rx = -1;
-int pin_radio_tx = -1;
-int pin_radio_rst = -1;
-int pin_radio_pwr = -1;
-int pin_radio_cts = -1;
-int pin_radio_rts = -1;
+int8_t pin_radio_rx = -1;
+int8_t pin_radio_tx = -1;
+int8_t pin_radio_rst = -1;
+int8_t pin_radio_pwr = -1;
+int8_t pin_radio_cts = -1;
+int8_t pin_radio_rts = -1;
 
-int pin_Ethernet_CS = -1;
-int pin_Ethernet_Interrupt = -1;
-int pin_GNSS_CS = -1;
-int pin_GNSS_TimePulse = -1;
-int pin_microSD_CardDetect = -1;
+int8_t pin_Ethernet_CS = -1;
+int8_t pin_Ethernet_Interrupt = -1;
+int8_t pin_GNSS_CS = -1;
+int8_t pin_GNSS_TimePulse = -1;
+int8_t pin_microSD_CardDetect = -1;
 
-int pin_PICO = 23;
-int pin_POCI = 19;
-int pin_SCK = 18;
+int8_t pin_PICO = 23;
+int8_t pin_POCI = 19;
+int8_t pin_SCK = 18;
 //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 #include "esp_ota_ops.h" //Needed for partition counting and updateFromSD
